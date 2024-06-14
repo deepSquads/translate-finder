@@ -1,16 +1,16 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: translation-finder
-Upstream-Contact: Michal Čihař <michal@weblate.org>
-Source: https://weblate.org/
+Upstream-Name: translate-finder
+Upstream-Contact:khulnasoft-bot <info@khulnasoft.com>
+Source: https://deepsquads.github.io/
 
 Files: translation_finder/test_data/*
-Copyright: Michal Čihař <michal@weblate.org>
+Copyright:khulnasoft-bot <info@khulnasoft.com>
 License: GPL-3.0-or-later
 
 Files: CHANGES.rst README.rst
-Copyright: Michal Čihař <michal@weblate.org>
+Copyright:khulnasoft-bot <info@khulnasoft.com>
 License: GPL-3.0-or-later
 
 Files: .gitignore codecov.yml MANIFEST.in pyproject.toml pytest.ini requirements*.txt setup.cfg
-Copyright: Michal Čihař <michal@weblate.org>
+Copyright:khulnasoft-bot <info@khulnasoft.com>
 License: GPL-3.0-or-later

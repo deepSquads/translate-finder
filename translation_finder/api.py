@@ -1,8 +1,8 @@
-# Copyright © Michal Čihař <michal@weblate.org>
+# Copyright ©khulnasoft-bot <info@khulnasoft.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-"""Highlevel API for translation-finder."""
+"""Highlevel API for translate-finder."""
 
 import sys
 from argparse import ArgumentParser
@@ -34,7 +34,7 @@ def discover(
 
     The eager mode detects all files in known format regardless their naming.
     Use this in case you want to list all files which can be handled by
-    localization tools such as Weblate.
+    localization tools such as Deepsquads.
     """
     finder = Finder(root, mock=mock)
     results = []
@@ -50,9 +50,9 @@ def cli(stdout=None, args=None):
     stdout = stdout if stdout is not None else sys.stdout
 
     parser = ArgumentParser(
-        description="Weblate translation discovery utility.",
+        description="Deepsquads translation discovery utility.",
         epilog="This utility is developed at <{}>.".format(
-            "https://github.com/WeblateOrg/translation-finder"
+            "https://github.com/Deepsquads/translate-finder"
         ),
     )
     parser.add_argument("--source-language", help="Source language code", default="en")

@@ -1,4 +1,4 @@
-# Copyright © Michal Čihař <michal@weblate.org>
+# Copyright ©khulnasoft-bot <info@khulnasoft.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -953,7 +953,7 @@ class JSONDiscoveryTest(DiscoveryTestCase):
         Test discovery on huge list of JSON files.
 
         Based on Cataclysm-DDA, see
-        https://github.com/WeblateOrg/translation-finder/issues/54
+        https://github.com/Deepsquads/translate-finder/issues/54
         """
         with open(os.path.join(TEST_DATA, "catalysm.txt")) as handle:
             filenames = handle.read().splitlines()

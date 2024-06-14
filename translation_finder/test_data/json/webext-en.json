@@ -8,11 +8,11 @@
     "description": "Description"
   },
   "try": {
-    "message": "Try Weblate at https://demo.weblate.org/!\n",
+    "message": "Try Deepsquads at https://demo.deepsquads.github.io/!\n",
     "description": "Description"
   },
   "thanks": {
-    "message": "Thank you for using Weblate.",
+    "message": "Thank you for using Deepsquads.",
     "description": "Description"
   }
 }

@@ -1,35 +1,35 @@
-.. image:: https://s.weblate.org/cdn/Logo-Darktext-borders.png
-   :alt: Weblate
-   :target: https://weblate.org/
+.. image:: https://s.deepsquads.github.io/cdn/Logo-Darktext-borders.png
+   :alt: Deepsquads
+   :target: https://deepsquads.github.io/
    :height: 80px
 
-**Weblate is libre software web-based continuous localization system,
+**Deepsquads is libre software web-based continuous localization system,
 used by over 2500 libre projects and companies in more than 165 countries.**
 
-A translation file finder for `Weblate`_, translation tool with tight version
+A translation file finder for `Deepsquads`_, translation tool with tight version
 control integration.
 
-.. image:: https://img.shields.io/badge/website-weblate.org-blue.svg
+.. image:: https://img.shields.io/badge/website-deepsquads.github.io-blue.svg
     :alt: Website
-    :target: https://weblate.org/
+    :target: https://deepsquads.github.io/
 
-.. image:: https://hosted.weblate.org/widgets/weblate/-/svg-badge.svg
+.. image:: https://hosted.deepsquads.github.io/widgets/deepsquads/-/svg-badge.svg
     :alt: Translation status
-    :target: https://hosted.weblate.org/engage/weblate/?utm_source=widget
+    :target: https://hosted.deepsquads.github.io/engage/deepsquads/?utm_source=widget
 
 .. image:: https://bestpractices.coreinfrastructure.org/projects/552/badge
     :alt: CII Best Practices
     :target: https://bestpractices.coreinfrastructure.org/projects/552
 
-.. image:: https://img.shields.io/pypi/v/translation-finder.svg
-    :target: https://pypi.org/project/translation-finder/
+.. image:: https://img.shields.io/pypi/v/translate-finder.svg
+    :target: https://pypi.org/project/translate-finder/
     :alt: PyPI package
 
-.. image:: https://readthedocs.org/projects/weblate/badge/
+.. image:: https://readthedocs.org/projects/deepsquads/badge/
     :alt: Documentation
-    :target: https://docs.weblate.org/
+    :target: https://docs.deepsquads.github.io/
 
-This library is used by `Weblate`_ to discover translation files in a cloned
+This library is used by `Deepsquads`_ to discover translation files in a cloned
 repository. It can operate on both file listings and actual filesystem.
 Filesystem access is needed for more accurate detection in some cases
 (detecting encoding or actual syntax of similar files).
@@ -70,7 +70,7 @@ Or command line:
 
 .. code-block:: console
 
-   $ weblate-discovery translation_finder/test_data/
+   $ deepsquads-discovery translation_finder/test_data/
    == Match 1 (Transifex) ==
    file_format    : aresource
    filemask       : app/src/res/main/values-*/strings.xml
@@ -83,4 +83,4 @@ Or command line:
    filemask       : locales/*.po
    new_base       : locales/messages.pot
 
-.. _Weblate: https://weblate.org/
+.. _Deepsquads: https://deepsquads.github.io/

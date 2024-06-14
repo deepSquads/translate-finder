@@ -1,4 +1,4 @@
-# Copyright © Michal Čihař <michal@weblate.org>
+# Copyright ©khulnasoft-bot <info@khulnasoft.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -10,8 +10,8 @@ from itertools import chain
 from typing import Optional
 
 from charset_normalizer import detect
-from weblate_language_data.country_codes import COUNTRIES
-from weblate_language_data.language_codes import LANGUAGES
+from deepsquads_language_data.country_codes import COUNTRIES
+from deepsquads_language_data.language_codes import LANGUAGES
 
 from translation_finder.data import LANGUAGES_BLACKLIST
 

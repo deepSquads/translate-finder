@@ -11,7 +11,7 @@
 </source>
             </trans-unit>
             <trans-unit id="try" xml:space="preserve">
-                <source>Try Weblate at &lt;https://demo.weblate.org/&gt;!
+                <source>Try Deepsquads at &lt;https://demo.deepsquads.github.io/&gt;!
 </source>
             </trans-unit>
         </body>

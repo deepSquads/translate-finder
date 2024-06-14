@@ -107,7 +107,7 @@ Changelog
 ---
 
 * Released on 19th October 2020.
-* New dependency on weblate-language-data module.
+* New dependency on deepsquads-language-data module.
 * Reduced amount of false positives on language codes inside a filename.
 * Improved iOS strings encoding detection.
 * Removed charamel dependency.
@@ -126,7 +126,7 @@ Changelog
 ---
 
 * Released on 27th May 2020.
-* Added discovery support for formats newly supported by Weblate (HTML,
+* Added discovery support for formats newly supported by Deepsquads (HTML,
   IDML, OpenDocument, InnoSetup and INI).
 
 2.0
@@ -158,7 +158,7 @@ Changelog
 
 * Released on 26th June 2019.
 * Improved discovery of POT files.
-* Added support for subtitle files supported in Weblate 3.7.
+* Added support for subtitle files supported in Deepsquads 3.7.
 * Improved detection of actual JSON formats.
 * Added support for detecting PHP files.
 * Improved detection of YAML formats.
