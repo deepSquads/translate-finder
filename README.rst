@@ -8,10 +8,6 @@ control integration.
     :alt: Website
     :target: https://deepsquads.github.io/
 
-.. image:: https://hosted.deepsquads.github.io/widgets/deepsquads/-/svg-badge.svg
-    :alt: Translation status
-    :target: https://hosted.deepsquads.github.io/engage/deepsquads/?utm_source=widget
-
 .. image:: https://bestpractices.coreinfrastructure.org/projects/552/badge
     :alt: CII Best Practices
     :target: https://bestpractices.coreinfrastructure.org/projects/552
