@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+"""Simple wrapper to execute weblate-discovery commandline."""
+
+import sys
+
+import translation_finder.api
+
+sys.exit(translation_finder.api.cli())
